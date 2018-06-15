@@ -5,7 +5,11 @@ class App extends Component {
 
   render() {
     return (
-        <TodoList/>
+        <div>
+            <TodoList/>
+            <TodoList/>
+            <TodoList/>
+        </div>
     );
   }
 }
